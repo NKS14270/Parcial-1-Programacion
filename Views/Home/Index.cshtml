@@ -3,6 +3,10 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Aplicacion De Registro Hospital</h1>
+    <p>Bienvenido a la aplicacion de registro hospitalario</p>
+	<div class="mt-4">
+		<a class="btn btn-primary" href="@Url.Action("Create", "Pacientes")">Agregar Paciente</a>
+		<a class="btn btn-secondary" href="@Url.Action("Index", "Pacientes")">Pacientes</a>
+	</div>
 </div>

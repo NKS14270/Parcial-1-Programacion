@@ -8,6 +8,7 @@
         public int Edad { get; set; }
 
         public int IdObrasocial { get; set; }
+        public string Sintomas { get; set; }
         public Obrasocial? obra { get; set; }
     }
 }
