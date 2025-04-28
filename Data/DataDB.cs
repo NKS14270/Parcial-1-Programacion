@@ -63,6 +63,8 @@ namespace Parcial_1__Programacion.Data
             {
                 query += $" where IdObrasocial = {idObra}";
             }
+
+            query += " order by Obrasociales.Id";
             try
             {
                 List<Paciente> lista = new List<Paciente>();
